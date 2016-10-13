@@ -1,0 +1,38 @@
+<!doctype HTML>
+<html>
+<head>
+	<title>Monster Maker</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+  <script src="https://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+
+<h2>Monster Maker</h2>
+
+<div class="monster">
+
+<div>
+<img src="pix/leftarrow.png" ng-click="monsterhead = decrease(monsterhead, 0, 9)" ng-init="monsterhead = 1">
+<img src="pix/head0{{monsterhead}}.png">
+<img src="pix/rightarrow.png" ng-click="monsterhead = increase(monsterhead, 0, 9)">
+</div>
+
+<div>
+<img src="pix/leftarrow.png" ng-click="monsterbody = decrease(monsterbody, 0, 9)" ng-init="monsterbody = 1">
+<img src="pix/body0{{monsterbody}}.png">
+<img src="pix/rightarrow.png" ng-click="monsterbody = increase(monsterbody, 0, 9)">
+</div>
+
+<div>
+<img src="pix/leftarrow.png" ng-click="monsterlegs = decrease(monsterlegs, 0, 9)" ng-init="monsterlegs = 1">
+<img src="pix/legs0{{monsterlegs}}.png">
+<img src="pix/rightarrow.png" ng-click="monsterlegs = increase(monsterlegs, 0, 9)">
+</div>
+
+</div>
+
+</body>
+</html>

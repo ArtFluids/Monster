@@ -1,0 +1,75 @@
+body {
+	background-color: #33ccff;
+	font-family: helvetica;
+	color: white;
+}
+
+h2 {
+	font-size: 48px;
+	text-shadow: 0px 2px #11aadd;
+	color: #ccff33;
+	margin: auto;
+	text-align: center;
+}
+
+button
+{
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 5px 5px;
+	border-radius: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+input[type=submit] 
+{
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 5px 5px;
+	border-radius: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+input[type=text]
+{
+	color: black;
+	background-color: #0088bb;
+	border: none;
+	padding: 5px 5px;
+	border-radius: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+input[type=text]:hover
+{
+	background-color: #11aadd ;
+}
+
+button:active
+{
+	background-color: red;
+}
+
+input:checked {
+
+}
+
+.monster {
+
+	width: 16%;
+
+	margin: auto;
+
+	align-self: center;
+
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	
+}
+
+div {
+	position: center;
+}
